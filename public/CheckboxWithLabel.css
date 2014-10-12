@@ -1,0 +1,15 @@
+/**
+ * Styles for our awesome, CheckboxWithLabel, component
+ */
+
+ .checkboxwithlabel {
+  padding: 20px;
+  display: block;
+}
+
+  .checkboxwithlabel--awesome{
+    color: #000;
+    background-color: yellow;
+    font-style: italic;
+    font-weight: 700;
+  }

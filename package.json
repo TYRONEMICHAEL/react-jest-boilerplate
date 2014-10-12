@@ -1,0 +1,36 @@
+{
+  "name": "react-jest-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate that saves you time setting up a project for React Components and Test Driven Development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/react-tools/bin/jsx  components/ public/",
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  },
+  "keywords": [
+    "facebook",
+    "react",
+    "react-component",
+    "boilerplate",
+    "karma",
+    "mocha"
+  ],
+  "author": "Tyrone Michael Avnit <tyronemichael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TYRONEMICHAEL/react-jest-boilerplate/issues"
+  },
+  "dependencies": {
+    "react": "^0.11.2",
+    "react-tools": "^0.11.2"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.1.18"
+  }
+}
